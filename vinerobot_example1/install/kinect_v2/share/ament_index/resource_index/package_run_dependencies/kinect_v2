@@ -1,0 +1,1 @@
+ros2launch;robot_state_publisher;rviz2;joint_state_publisher_gui;gazebo_ros

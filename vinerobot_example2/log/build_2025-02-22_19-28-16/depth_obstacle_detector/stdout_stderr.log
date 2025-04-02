@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/entry_points.txt
+writing requirements to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/requires.txt
+writing top-level names to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/top_level.txt
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (depth_detector.py, line 125)
+reading manifest file '../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+copying depth_obstacle_detector/depth_detector.py -> /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector
+running install
+running install_lib
+copying /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector/depth_detector.py -> /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector
+byte-compiling /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector/depth_detector.py to depth_detector.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info to /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing depth_detector script to /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/depth_obstacle_detector
+writing list of installed files to '/home/yzquality/vinerobot_example/build/depth_obstacle_detector/install.log'

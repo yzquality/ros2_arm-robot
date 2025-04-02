@@ -1,0 +1,318 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74825df445b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74825df44160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74825df44160>>)
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.420s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yzquality/vinerobot_example'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_obstacle_detector) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depth_obstacle_detector' with type 'ros.ament_python' and name 'depth_obstacle_detector'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_v2_urdf/kinect_v2) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinect_v2_urdf/kinect_v2' with type 'ros.ament_cmake' and name 'kinect_v2'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot' with type 'ros.ament_cmake' and name 'mybot'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot_description) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot_description' with type 'ros.ament_python' and name 'mybot_description'
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.483s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/yzquality/vinerobot_example/install
+[0.484s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/yzquality/vinerobot_prp/install
+[0.485s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yzquality/ros2_turtle/install
+[0.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yzquality/ros2_ex1/install
+[0.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'depth_obstacle_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'depth_obstacle_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzquality/vinerobot_example/build/depth_obstacle_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzquality/vinerobot_example/install/depth_obstacle_detector', 'merge_install': False, 'path': '/home/yzquality/vinerobot_example/src/depth_obstacle_detector', 'symlink_install': False, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'cmake_clean_first' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'cmake_force_configure' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'ament_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'kinect_v2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.581s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_v2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzquality/vinerobot_example/build/kinect_v2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzquality/vinerobot_example/install/kinect_v2', 'merge_install': False, 'path': '/home/yzquality/vinerobot_example/src/kinect_v2_urdf/kinect_v2', 'symlink_install': False, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.582s] DEBUG:colcon.colcon_core.verb:Building package 'mybot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzquality/vinerobot_example/build/mybot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzquality/vinerobot_example/install/mybot_description', 'merge_install': False, 'path': '/home/yzquality/vinerobot_example/src/mybot_description', 'symlink_install': False, 'test_result_base': None}
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_target' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'mybot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzquality/vinerobot_example/build/mybot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzquality/vinerobot_example/install/mybot', 'merge_install': False, 'path': '/home/yzquality/vinerobot_example/src/mybot', 'symlink_install': False, 'test_result_base': None}
+[0.583s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.706s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yzquality/vinerobot_example/src/mybot_description' with build type 'ament_python'
+[0.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_description', 'ament_prefix_path')
+[0.715s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/hook/ament_prefix_path.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/hook/ament_prefix_path.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/hook/ament_prefix_path.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.787s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yzquality/vinerobot_example/src/depth_obstacle_detector' with build type 'ament_python'
+[0.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_obstacle_detector', 'ament_prefix_path')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/hook/ament_prefix_path.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/hook/ament_prefix_path.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/hook/ament_prefix_path.sh'
+[0.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.823s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzquality/vinerobot_example/src/kinect_v2_urdf/kinect_v2' with build type 'ament_cmake'
+[0.824s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzquality/vinerobot_example/src/kinect_v2_urdf/kinect_v2'
+[0.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.625s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yzquality/vinerobot_example/src/mybot_description'
+[1.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.342s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yzquality/vinerobot_example/src/depth_obstacle_detector'
+[2.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.343s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzquality/vinerobot_example/build/kinect_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/kinect_v2 -- -j4 -l4
+[2.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzquality/vinerobot_example/build/kinect_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/kinect_v2 -- -j4 -l4
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzquality/vinerobot_example/build/kinect_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/kinect_v2
+[3.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_v2)
+[3.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzquality/vinerobot_example/build/kinect_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/kinect_v2
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2' for CMake module files
+[3.227s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2' for CMake config files
+[3.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_v2', 'cmake_prefix_path')
+[3.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/hook/cmake_prefix_path.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/hook/cmake_prefix_path.dsv'
+[3.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/hook/cmake_prefix_path.sh'
+[3.274s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/bin'
+[3.274s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/lib/pkgconfig/kinect_v2.pc'
+[3.274s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/lib/python3.10/site-packages'
+[3.275s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/bin'
+[3.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.ps1'
+[3.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.dsv'
+[3.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.sh'
+[3.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.bash'
+[3.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.zsh'
+[3.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzquality/vinerobot_example/install/kinect_v2/share/colcon-core/packages/kinect_v2)
+[3.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_v2)
+[3.335s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2' for CMake module files
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2' for CMake config files
+[3.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_v2', 'cmake_prefix_path')
+[3.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/hook/cmake_prefix_path.ps1'
+[3.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/hook/cmake_prefix_path.dsv'
+[3.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/hook/cmake_prefix_path.sh'
+[3.364s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/bin'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/lib/pkgconfig/kinect_v2.pc'
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/lib/python3.10/site-packages'
+[3.370s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/kinect_v2/bin'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.ps1'
+[3.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.dsv'
+[3.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.sh'
+[3.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.bash'
+[3.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.zsh'
+[3.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzquality/vinerobot_example/install/kinect_v2/share/colcon-core/packages/kinect_v2)
+[3.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzquality/vinerobot_example/src/depth_obstacle_detector': PYTHONPATH=/home/yzquality/vinerobot_example/build/depth_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_obstacle_detector build --build-base /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build install --record /home/yzquality/vinerobot_example/build/depth_obstacle_detector/install.log --single-version-externally-managed install_data
+[3.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzquality/vinerobot_example/src/mybot_description': PYTHONPATH=/home/yzquality/vinerobot_example/build/mybot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mybot_description build --build-base /home/yzquality/vinerobot_example/build/mybot_description/build install --record /home/yzquality/vinerobot_example/build/mybot_description/install.log --single-version-externally-managed install_data
+[4.319s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/depth_obstacle_detector' for CMake module files
+[4.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzquality/vinerobot_example/src/depth_obstacle_detector' returned '0': PYTHONPATH=/home/yzquality/vinerobot_example/build/depth_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_obstacle_detector build --build-base /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build install --record /home/yzquality/vinerobot_example/build/depth_obstacle_detector/install.log --single-version-externally-managed install_data
+[4.331s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/depth_obstacle_detector' for CMake config files
+[4.333s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib'
+[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/bin'
+[4.342s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/pkgconfig/depth_obstacle_detector.pc'
+[4.343s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages'
+[4.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_obstacle_detector', 'pythonpath')
+[4.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/hook/pythonpath.ps1'
+[4.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/hook/pythonpath.dsv'
+[4.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/hook/pythonpath.sh'
+[4.347s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/bin'
+[4.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_obstacle_detector)
+[4.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/package.ps1'
+[4.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/package.dsv'
+[4.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/package.sh'
+[4.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/package.bash'
+[4.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector/package.zsh'
+[4.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/colcon-core/packages/depth_obstacle_detector)
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot_description' for CMake module files
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot_description' for CMake config files
+[4.588s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot_description/lib'
+[4.597s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot_description/bin'
+[4.597s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot_description/lib/pkgconfig/mybot_description.pc'
+[4.598s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages'
+[4.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot_description', 'pythonpath')
+[4.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/hook/pythonpath.ps1'
+[4.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/hook/pythonpath.dsv'
+[4.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzquality/vinerobot_example/src/mybot_description' returned '0': PYTHONPATH=/home/yzquality/vinerobot_example/build/mybot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mybot_description build --build-base /home/yzquality/vinerobot_example/build/mybot_description/build install --record /home/yzquality/vinerobot_example/build/mybot_description/install.log --single-version-externally-managed install_data
+[4.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/hook/pythonpath.sh'
+[4.625s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot_description/bin'
+[4.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot_description)
+[4.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/package.ps1'
+[4.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/package.dsv'
+[4.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/package.sh'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/package.bash'
+[4.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/package.zsh'
+[4.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzquality/vinerobot_example/install/mybot_description/share/colcon-core/packages/mybot_description)
+[4.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzquality/vinerobot_example/src/mybot' with build type 'ament_cmake'
+[4.656s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzquality/vinerobot_example/src/mybot'
+[4.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzquality/vinerobot_example/build/mybot': AMENT_PREFIX_PATH=/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/mybot:/home/yzquality/vinerobot_example/install/kinect_v2:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/mybot -- -j4 -l4
+[5.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzquality/vinerobot_example/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/mybot:/home/yzquality/vinerobot_example/install/kinect_v2:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/mybot -- -j4 -l4
+[5.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzquality/vinerobot_example/build/mybot': AMENT_PREFIX_PATH=/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/mybot:/home/yzquality/vinerobot_example/install/kinect_v2:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/mybot
+[5.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot)
+[5.318s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot' for CMake module files
+[5.329s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot' for CMake config files
+[5.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot', 'cmake_prefix_path')
+[5.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot/share/mybot/hook/cmake_prefix_path.ps1'
+[5.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/mybot/share/mybot/hook/cmake_prefix_path.dsv'
+[5.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot/share/mybot/hook/cmake_prefix_path.sh'
+[5.333s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/bin'
+[5.334s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/lib/pkgconfig/mybot.pc'
+[5.334s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/lib/python3.10/site-packages'
+[5.334s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/bin'
+[5.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.ps1'
+[5.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.dsv'
+[5.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.sh'
+[5.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.bash'
+[5.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.zsh'
+[5.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzquality/vinerobot_example/install/mybot/share/colcon-core/packages/mybot)
+[5.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzquality/vinerobot_example/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/mybot:/home/yzquality/vinerobot_example/install/kinect_v2:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/mybot
+[5.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot)
+[5.407s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot' for CMake module files
+[5.408s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot' for CMake config files
+[5.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot', 'cmake_prefix_path')
+[5.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot/share/mybot/hook/cmake_prefix_path.ps1'
+[5.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzquality/vinerobot_example/install/mybot/share/mybot/hook/cmake_prefix_path.dsv'
+[5.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzquality/vinerobot_example/install/mybot/share/mybot/hook/cmake_prefix_path.sh'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/bin'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/lib/pkgconfig/mybot.pc'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/lib/python3.10/site-packages'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/yzquality/vinerobot_example/install/mybot/bin'
+[5.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.ps1'
+[5.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.dsv'
+[5.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.sh'
+[5.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.bash'
+[5.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzquality/vinerobot_example/install/mybot/share/mybot/package.zsh'
+[5.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzquality/vinerobot_example/install/mybot/share/colcon-core/packages/mybot)
+[5.470s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.472s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.493s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.619s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzquality/vinerobot_example/install/local_setup.ps1'
+[5.621s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzquality/vinerobot_example/install/_local_setup_util_ps1.py'
+[5.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzquality/vinerobot_example/install/setup.ps1'
+[5.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzquality/vinerobot_example/install/local_setup.sh'
+[5.630s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzquality/vinerobot_example/install/_local_setup_util_sh.py'
+[5.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzquality/vinerobot_example/install/setup.sh'
+[5.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzquality/vinerobot_example/install/local_setup.bash'
+[5.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzquality/vinerobot_example/install/setup.bash'
+[5.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzquality/vinerobot_example/install/local_setup.zsh'
+[5.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzquality/vinerobot_example/install/setup.zsh'

@@ -1,0 +1,21 @@
+[1.348s] Invoking command in '/home/yzquality/vinerobot_example/src/mybot_description': PYTHONPATH=/home/yzquality/vinerobot_example/build/mybot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mybot_description build --build-base /home/yzquality/vinerobot_example/build/mybot_description/build install --record /home/yzquality/vinerobot_example/build/mybot_description/install.log --single-version-externally-managed install_data
+[1.720s] running egg_info
+[1.722s] writing ../../build/mybot_description/mybot_description.egg-info/PKG-INFO
+[1.722s] writing dependency_links to ../../build/mybot_description/mybot_description.egg-info/dependency_links.txt
+[1.723s] writing entry points to ../../build/mybot_description/mybot_description.egg-info/entry_points.txt
+[1.723s] writing requirements to ../../build/mybot_description/mybot_description.egg-info/requires.txt
+[1.724s] writing top-level names to ../../build/mybot_description/mybot_description.egg-info/top_level.txt
+[1.726s] reading manifest file '../../build/mybot_description/mybot_description.egg-info/SOURCES.txt'
+[1.727s] writing manifest file '../../build/mybot_description/mybot_description.egg-info/SOURCES.txt'
+[1.727s] running build
+[1.727s] running build_py
+[1.728s] running install
+[1.729s] running install_lib
+[1.730s] running install_data
+[1.731s] copying urdf/vinerobot.urdf -> /home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/urdf
+[1.731s] running install_egg_info
+[1.734s] removing '/home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages/mybot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.734s] Copying ../../build/mybot_description/mybot_description.egg-info to /home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages/mybot_description-0.0.0-py3.10.egg-info
+[1.735s] running install_scripts
+[1.765s] writing list of installed files to '/home/yzquality/vinerobot_example/build/mybot_description/install.log'
+[1.796s] Invoked command in '/home/yzquality/vinerobot_example/src/mybot_description' returned '0': PYTHONPATH=/home/yzquality/vinerobot_example/build/mybot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mybot_description build --build-base /home/yzquality/vinerobot_example/build/mybot_description/build install --record /home/yzquality/vinerobot_example/build/mybot_description/install.log --single-version-externally-managed install_data

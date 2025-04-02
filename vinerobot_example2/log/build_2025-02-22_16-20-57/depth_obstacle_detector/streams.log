@@ -1,0 +1,24 @@
+[3.245s] Invoking command in '/home/yzquality/vinerobot_example/src/depth_obstacle_detector': PYTHONPATH=/home/yzquality/vinerobot_example/build/depth_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_obstacle_detector build --build-base /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build install --record /home/yzquality/vinerobot_example/build/depth_obstacle_detector/install.log --single-version-externally-managed install_data
+[3.862s] running egg_info
+[3.863s] writing ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/PKG-INFO
+[3.863s] writing dependency_links to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/dependency_links.txt
+[3.863s] writing entry points to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/entry_points.txt
+[3.863s] writing requirements to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/requires.txt
+[3.863s] writing top-level names to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/top_level.txt
+[3.863s] reading manifest file '../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/SOURCES.txt'
+[3.863s] writing manifest file '../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/SOURCES.txt'
+[3.863s] running build
+[3.863s] running build_py
+[3.863s] copying depth_obstacle_detector/depth_detector.py -> /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector
+[3.863s] running install
+[3.863s] running install_lib
+[3.863s] copying /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector/depth_detector.py -> /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector
+[3.864s] byte-compiling /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector/depth_detector.py to depth_detector.cpython-310.pyc
+[3.864s] running install_data
+[3.864s] running install_egg_info
+[3.891s] removing '/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[3.891s] Copying ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info to /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector-0.0.0-py3.10.egg-info
+[3.891s] running install_scripts
+[3.902s] Installing depth_detector script to /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/depth_obstacle_detector
+[3.904s] writing list of installed files to '/home/yzquality/vinerobot_example/build/depth_obstacle_detector/install.log'
+[4.254s] Invoked command in '/home/yzquality/vinerobot_example/src/depth_obstacle_detector' returned '0': PYTHONPATH=/home/yzquality/vinerobot_example/build/depth_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_obstacle_detector build --build-base /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build install --record /home/yzquality/vinerobot_example/build/depth_obstacle_detector/install.log --single-version-externally-managed install_data

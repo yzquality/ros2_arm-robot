@@ -1,0 +1,140 @@
+[1.118s] Invoking command in '/home/yzquality/vinerobot_example/build/kinect_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake /home/yzquality/vinerobot_example/src/kinect_v2_urdf/kinect_v2 -DCMAKE_INSTALL_PREFIX=/home/yzquality/vinerobot_example/install/kinect_v2
+[2.964s] -- The C compiler identification is GNU 12.3.0
+[3.819s] -- The CXX compiler identification is GNU 11.4.0
+[3.894s] -- Detecting C compiler ABI info
+[4.226s] -- Detecting C compiler ABI info - done
+[4.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.227s] -- Detecting C compile features
+[4.227s] -- Detecting C compile features - done
+[4.227s] -- Detecting CXX compiler ABI info
+[4.618s] -- Detecting CXX compiler ABI info - done
+[4.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.677s] -- Detecting CXX compile features
+[4.677s] -- Detecting CXX compile features - done
+[4.695s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.288s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.726s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[6.041s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[6.086s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[6.399s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.416s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.495s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.011s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.021s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.198s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.593s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.630s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.684s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.712s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.724s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.794s] -- Looking for pthread.h
+[8.082s] -- Looking for pthread.h - found
+[8.083s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.489s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.491s] -- Found Threads: TRUE  
+[9.091s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[9.093s] -- Checking for module 'bullet>=2.82'
+[9.205s] --   Found bullet, version 3.05
+[9.707s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[9.928s] -- Found assimp: /usr/include (found version "5.2.0") 
+[10.175s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[10.344s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[10.523s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[10.588s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.625s] -- Searching for dependencies of ignition-math6
+[10.642s] -- Looking for OGRE...
+[10.644s] -- OGRE_PREFIX_WATCH changed.
+[10.665s] -- Checking for module 'OGRE'
+[10.746s] --   Found OGRE, version 1.9.0
+[10.918s] -- Found Ogre Ghadamon (1.9.0)
+[10.937s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[10.959s] -- Looking for OGRE_Paging...
+[10.983s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[10.983s] -- Looking for OGRE_Terrain...
+[10.994s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[10.994s] -- Looking for OGRE_Property...
+[11.009s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[11.012s] -- Looking for OGRE_RTShaderSystem...
+[11.052s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[11.052s] -- Looking for OGRE_Volume...
+[11.067s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[11.069s] -- Looking for OGRE_Overlay...
+[11.078s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[11.389s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.406s] -- Looking for ignition-transport8 -- found version 8.2.1
+[11.406s] -- Searching for dependencies of ignition-transport8
+[11.426s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[11.456s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[11.475s] -- Checking for module 'libzmq >= 4'
+[11.519s] --   Found libzmq , version 4.3.4
+[11.770s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[11.793s] -- Checking for module 'uuid'
+[11.874s] --   Found uuid, version 2.37.2
+[12.022s] -- Found UUID: TRUE  
+[12.047s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[12.047s] -- Searching for dependencies of ignition-msgs5
+[12.117s] -- Looking for ignition-math6 -- found version 6.15.1
+[12.148s] -- Checking for module 'tinyxml2'
+[12.236s] --   Found tinyxml2, version 9.0.0
+[12.441s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[12.467s] -- Looking for ignition-common3 -- found version 3.14.0
+[12.468s] -- Searching for dependencies of ignition-common3
+[12.470s] -- Looking for dlfcn.h - found
+[12.472s] -- Looking for libdl - found
+[12.474s] -- Found DL: TRUE  
+[12.535s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[12.536s] -- Searching for <ignition-common3> component [graphics]
+[12.547s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[12.580s] -- Searching for dependencies of ignition-common3-graphics
+[12.580s] -- Looking for ignition-math6 -- found version 6.15.1
+[12.583s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[12.584s] -- Searching for dependencies of ignition-fuel_tools4
+[12.777s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[12.822s] -- Checking for module 'jsoncpp'
+[12.867s] --   Found jsoncpp, version 1.9.5
+[12.959s] -- Found JSONCPP: TRUE  
+[12.984s] -- Checking for module 'libzip'
+[13.019s] --   Found libzip, version 1.7.3
+[13.169s] -- Found ZIP: TRUE  
+[13.169s] -- Looking for ignition-common3 -- found version 3.14.0
+[13.170s] -- Looking for ignition-math6 -- found version 6.15.1
+[13.170s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[13.181s] -- Gazebo version: 11.10
+[13.185s] -- Checking for module 'tbb'
+[13.239s] --   Found tbb, version 2021.5.0
+[13.486s] -- Configuring done
+[13.486s] -- Generating done
+[13.495s] -- Build files have been written to: /home/yzquality/vinerobot_example/build/kinect_v2
+[13.526s] Invoked command in '/home/yzquality/vinerobot_example/build/kinect_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake /home/yzquality/vinerobot_example/src/kinect_v2_urdf/kinect_v2 -DCMAKE_INSTALL_PREFIX=/home/yzquality/vinerobot_example/install/kinect_v2
+[13.529s] Invoking command in '/home/yzquality/vinerobot_example/build/kinect_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/kinect_v2 -- -j4 -l4
+[13.677s] Invoked command in '/home/yzquality/vinerobot_example/build/kinect_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/kinect_v2 -- -j4 -l4
+[13.692s] Invoking command in '/home/yzquality/vinerobot_example/build/kinect_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/kinect_v2
+[13.757s] -- Install configuration: ""
+[13.757s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/launch
+[13.757s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/launch/display.launch
+[13.757s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/launch/gazebo.launch
+[13.757s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/meshes
+[13.757s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/meshes/kinect2.STL
+[13.837s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf
+[13.837s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf/kinect_v2.urdf.xacro
+[13.848s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf/kinect_v2_standalong.urdf.xacro
+[13.848s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf/kinect_v2.gazebo.xacro
+[13.849s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/ament_index/resource_index/package_run_dependencies/kinect_v2
+[13.850s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/ament_index/resource_index/parent_prefix_path/kinect_v2
+[13.855s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/ament_prefix_path.sh
+[13.856s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/ament_prefix_path.dsv
+[13.865s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/path.sh
+[13.867s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/path.dsv
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.bash
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.sh
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.zsh
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.dsv
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.dsv
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/ament_index/resource_index/packages/kinect_v2
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/cmake/kinect_v2Config.cmake
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/cmake/kinect_v2Config-version.cmake
+[13.869s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.xml
+[13.877s] Invoked command in '/home/yzquality/vinerobot_example/build/kinect_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/kinect_v2

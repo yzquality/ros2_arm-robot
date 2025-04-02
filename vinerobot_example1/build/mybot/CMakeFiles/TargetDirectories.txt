@@ -1,0 +1,9 @@
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/uninstall.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/mybot_uninstall.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/test.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/edit_cache.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/rebuild_cache.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/list_install_components.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/install.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/install/local.dir
+/home/yzquality/vinerobot_example/build/mybot/CMakeFiles/install/strip.dir

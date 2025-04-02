@@ -1,0 +1,12 @@
+material Material1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture vine_leaves.png
+            }
+        }
+    }

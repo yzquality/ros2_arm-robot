@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kinect_v2</name> <!-- 包名 -->
+  <version>1.0.0</version> <!-- 包版本 -->
+  <description>
+    URDF Description package for Kinect V2.
+    This package contains configuration data, 3D models, and launch files
+    for Kinect V2 integration.
+  </description>
+  
+  <!-- 作者和维护者信息 -->
+  <maintainer email="yzquality@foxmail.com">wxw</maintainer>
+  <license>BSD</license>
+
+  <!-- 构建工具依赖 (ROS2 使用 ament_cmake) -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 构建时依赖 -->
+  <build_depend>ros2launch</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>rviz2</build_depend>
+  <build_depend>joint_state_publisher_gui</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+
+  <!-- 运行时依赖 -->
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <!-- 导出 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+    <architecture_independent/>
+  </export>
+</package>
+

@@ -1,0 +1,29 @@
+[1.548s] Invoking command in '/home/yzquality/vinerobot_example/build/kinect_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/kinect_v2 -- -j4 -l4
+[2.737s] Invoked command in '/home/yzquality/vinerobot_example/build/kinect_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --build /home/yzquality/vinerobot_example/build/kinect_v2 -- -j4 -l4
+[2.867s] Invoking command in '/home/yzquality/vinerobot_example/build/kinect_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/kinect_v2
+[2.871s] -- Install configuration: ""
+[2.872s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/launch
+[2.875s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/launch/display.launch
+[2.883s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/launch/gazebo.launch
+[2.883s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/meshes
+[2.888s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/meshes/kinect2.STL
+[2.889s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf
+[2.891s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf/kinect_v2.urdf.xacro
+[2.891s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf/kinect_v2_standalong.urdf.xacro
+[2.897s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/urdf/kinect_v2.gazebo.xacro
+[2.899s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/ament_index/resource_index/package_run_dependencies/kinect_v2
+[2.900s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/ament_index/resource_index/parent_prefix_path/kinect_v2
+[2.907s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/ament_prefix_path.sh
+[2.907s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/ament_prefix_path.dsv
+[2.908s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/path.sh
+[2.908s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/environment/path.dsv
+[2.908s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.bash
+[2.908s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.sh
+[2.909s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.zsh
+[2.909s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/local_setup.dsv
+[2.910s] -- Installing: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.dsv
+[2.910s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/ament_index/resource_index/packages/kinect_v2
+[2.913s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/cmake/kinect_v2Config.cmake
+[2.920s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/cmake/kinect_v2Config-version.cmake
+[2.921s] -- Up-to-date: /home/yzquality/vinerobot_example/install/kinect_v2/share/kinect_v2/package.xml
+[2.930s] Invoked command in '/home/yzquality/vinerobot_example/build/kinect_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzquality/vinerobot_example/install/mybot_description:/home/yzquality/vinerobot_example/install/depth_obstacle_detector:/home/yzquality/vinerobot_prp/install/mybot_description:/home/yzquality/vinerobot_prp/install/motion_controller:/home/yzquality/ros2_turtle/install/turtlesim_controller:/home/yzquality/ros2_ex1/install/mybot_description:/opt/ros/humble /usr/bin/cmake --install /home/yzquality/vinerobot_example/build/kinect_v2

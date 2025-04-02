@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/mybot_description/mybot_description.egg-info
+writing ../../build/mybot_description/mybot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/mybot_description/mybot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/mybot_description/mybot_description.egg-info/entry_points.txt
+writing requirements to ../../build/mybot_description/mybot_description.egg-info/requires.txt
+writing top-level names to ../../build/mybot_description/mybot_description.egg-info/top_level.txt
+writing manifest file '../../build/mybot_description/mybot_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/mybot_description/mybot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/mybot_description/mybot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yzquality/vinerobot_example/build/mybot_description/build
+creating /home/yzquality/vinerobot_example/build/mybot_description/build/lib
+creating /home/yzquality/vinerobot_example/build/mybot_description/build/lib/mybot_description
+copying mybot_description/__init__.py -> /home/yzquality/vinerobot_example/build/mybot_description/build/lib/mybot_description
+running install
+running install_lib
+creating /home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages/mybot_description
+copying /home/yzquality/vinerobot_example/build/mybot_description/build/lib/mybot_description/__init__.py -> /home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages/mybot_description
+byte-compiling /home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages/mybot_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yzquality/vinerobot_example/install/mybot_description/share/ament_index
+creating /home/yzquality/vinerobot_example/install/mybot_description/share/ament_index/resource_index
+creating /home/yzquality/vinerobot_example/install/mybot_description/share/ament_index/resource_index/packages
+copying resource/mybot_description -> /home/yzquality/vinerobot_example/install/mybot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description
+creating /home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/urdf
+copying urdf/vinerobot.urdf -> /home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/urdf
+creating /home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/meshes
+copying meshes/kinect2.STL -> /home/yzquality/vinerobot_example/install/mybot_description/share/mybot_description/meshes
+running install_egg_info
+Copying ../../build/mybot_description/mybot_description.egg-info to /home/yzquality/vinerobot_example/install/mybot_description/lib/python3.10/site-packages/mybot_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yzquality/vinerobot_example/build/mybot_description/install.log'

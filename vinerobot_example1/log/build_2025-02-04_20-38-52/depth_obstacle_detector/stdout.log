@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info
+writing ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/entry_points.txt
+writing requirements to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/requires.txt
+writing top-level names to ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/top_level.txt
+writing manifest file '../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/SOURCES.txt'
+reading manifest file '../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build
+creating /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib
+creating /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector
+copying depth_obstacle_detector/depth_detecter.py -> /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector
+copying depth_obstacle_detector/__init__.py -> /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector
+running install
+running install_lib
+creating /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector
+copying /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector/depth_detecter.py -> /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector
+copying /home/yzquality/vinerobot_example/build/depth_obstacle_detector/build/lib/depth_obstacle_detector/__init__.py -> /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector
+byte-compiling /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector/depth_detecter.py to depth_detecter.cpython-310.pyc
+byte-compiling /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/ament_index
+creating /home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/ament_index/resource_index
+creating /home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/ament_index/resource_index/packages
+copying resource/depth_obstacle_detector -> /home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/yzquality/vinerobot_example/install/depth_obstacle_detector/share/depth_obstacle_detector
+running install_egg_info
+Copying ../../build/depth_obstacle_detector/depth_obstacle_detector.egg-info to /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/python3.10/site-packages/depth_obstacle_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing depth_detector script to /home/yzquality/vinerobot_example/install/depth_obstacle_detector/lib/depth_obstacle_detector
+writing list of installed files to '/home/yzquality/vinerobot_example/build/depth_obstacle_detector/install.log'
